@@ -27,8 +27,8 @@ html<!DOCTYPE html>
 
     <script>
         // HIER HALEN WE DE DATA GRATIS EN RECHTSTREEKS BIJ JOUW AWARDSPACE OP!
-        const dataUrl = "https://berghs.atwebpages.com"; // <--- Verander 'berghsp1' eventueel naar je eigen subdomeinnaam!
-
+//        const dataUrl = "https://berghs.atwebpages.com"; // <--- Verander 'berghsp1' eventueel naar je eigen subdomeinnaam!
+        const dataUrl = "https://allorigins.win" + encodeURIComponent("http://berghs.atwebpages.com");
         async function updateDashboard() {
             try {
                 const response = await fetch(dataUrl);
